@@ -2,7 +2,13 @@
 #include <vector>
 
 int main(){
-  std::vector<int> digits = {4,5,8,9,10,1};
+  std::vector<int> digits;
+  digits.push_back(4);
+  digits.push_back(5);
+  digits.push_back(8);
+  digits.push_back(9);
+  digits.push_back(10);
+  digits.push_back(1);
   int even_sum=0, odd_product=1;
 
   for (int i=0; i<digits.size();i++){
